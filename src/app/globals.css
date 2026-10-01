@@ -1,0 +1,132 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Design tokens del portfolio (il perché di ogni scelta è in DESIGN.md).
+   Titoli: Bricolage Grotesque · Testo: Geist · Dati: Geist Mono
+   Neutri freddi (grigio pietra, non beige) e un solo accento: il bordeaux, lo stesso del CV.
+
+   I colori sono variabili: `.dark` (sull'elemento <html>) li ridefinisce.
+   - accent   = colore di testo e segno (bordeaux di giorno, rosa di notte, per il contrasto)
+   - bordeaux = riempimenti pieni con testo bianco (bottoni)
+   - teal/gold = SOLO per distinguere categorie nei grafici (le comunità della rete), mai come colori dell'interfaccia
+   - night/fog = superfici scure fisse (cornice del telefono, lightbox) e il loro testo */
+:root {
+  --paper: #f3f3f0;
+  --raised: #fbfbf9;
+  --ink: #141816;
+  --ink-soft: #535a56;
+  --line: #d6d9d5;
+  --accent: #8e1b31;
+  --accent-soft: #a8394d;
+  --bordeaux: #8e1b31;
+  --bordeaux-soft: #7a1628;
+  --teal: #0e6e6d;
+  --gold: #a8761f;
+  --gold-text: #7d5613;
+  --night: #121513;
+  --fog: #f3f3f0;
+  color-scheme: light;
+}
+
+.dark {
+  --paper: #0f1211;
+  --raised: #161a18;
+  --ink: #eceeec;
+  --ink-soft: #a4aba7;
+  --line: #2a302d;
+  --accent: #f0919f;
+  --accent-soft: #e0788a;
+  --bordeaux: #a3263f;
+  --bordeaux-soft: #b83250;
+  --teal: #3fb5b3;
+  --gold: #d9a441;
+  --gold-text: #d9a441;
+  --night: #0b0d0c;
+  --fog: #eceeec;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-raised: var(--raised);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-bordeaux: var(--bordeaux);
+  --color-bordeaux-soft: var(--bordeaux-soft);
+  --color-teal: var(--teal);
+  --color-gold: var(--gold);
+  --color-gold-text: var(--gold-text);
+  --color-night: var(--night);
+  --color-fog: var(--fog);
+
+  --font-display: var(--font-bricolage), "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-geist), -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-geist-mono), "SFMono-Regular", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem; /* la navbar è fissa: i link a un'ancora non finiscono sotto di lei */
+}
+
+/* Con lo scorrimento a inerzia (Lenis) è lui a muovere la pagina: lo "smooth" del browser si sommerebbe e andrebbe a scatti */
+html.lenis {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Titoli: righe bilanciate (niente parola sola sull'ultima riga) */
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Date, quote e numeri in colonna: cifre tutte larghe uguali */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-accent) 30%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

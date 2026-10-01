@@ -1,0 +1,1692 @@
+{
+  "it": {
+    "nav": {
+      "home": "Home",
+      "projects": "Progetti",
+      "about": "Chi sono",
+      "cv": "CV",
+      "resume": "Percorso",
+      "archive": "Archivio"
+    },
+    "footer": {
+      "rights": "Fatto con cura a Milano."
+    },
+    "home": {
+      "kicker": "Portfolio",
+      "headline": "Vittoria Bassi",
+      "subhead": "Sviluppo web e mobile, dati e comunicazione. Sto concludendo Informatica per la Comunicazione Digitale a Milano. Radici in Valtellina.",
+      "ctaPrimary": "Guarda i progetti",
+      "ctaSecondary": "Chi sono",
+      "pillarsTitle": "Cosa mi muove",
+      "pillars": [
+        {
+          "label": "Sviluppo & Dati",
+          "desc": "JavaScript, Kotlin, Go, React, network analysis e machine learning."
+        },
+        {
+          "label": "Comunicazione Digitale",
+          "desc": "Content creation, community management, SEO, storytelling."
+        },
+        {
+          "label": "Pittura & Colore",
+          "desc": "Dai paesaggi alle forme più libere: dipingo quello che mi va di esplorare sul momento, per puro divertimento."
+        },
+        {
+          "label": "Montagna & Sport",
+          "desc": "Corsa, trekking e arrampicata."
+        },
+        {
+          "label": "Animali",
+          "desc": "Amo tantissimo gli animali, di ogni specie."
+        }
+      ],
+      "featuredTitle": "Progetti scelti",
+      "featured": [
+        {
+          "project": 0,
+          "title": "PiccoliPassi",
+          "blurb": "Piattaforma digitale per la scuola dell'infanzia, per Koinè Cooperativa Sociale ONLUS."
+        },
+        {
+          "project": 1,
+          "title": "Fotogram",
+          "blurb": "Prototipo Android di un social network di condivisione immagini."
+        },
+        {
+          "project": 2,
+          "title": "Rientro prima del buio",
+          "blurb": "Scegli un giro in Valtellina e l'ora di partenza: ti dice se torni alla macchina con la luce, con tempi, tramonto e meteo in quota."
+        }
+      ],
+      "seeAll": "Tutti i progetti"
+    },
+    "projects": {
+      "eyebrow": "progetti",
+      "title": "Progetti",
+      "intro": "Cose che faccio.",
+      "details": "Dettagli",
+      "hide": "Nascondi",
+      "soon": "In arrivo su GitHub",
+      "galleryHint": "Presto qui alcuni miei quadri",
+      "demoLabel": "Prova la demo",
+      "repoLabel": "Codice sorgente",
+      "docLabel": "Leggi il PDF",
+      "schemaLabel": "Vedi lo schema ER",
+      "items": [
+        {
+          "eyebrow": "Tirocinio di tesi · 2025 – luglio 2026",
+          "title": "PiccoliPassi",
+          "subtitle": "Piattaforma di screening multidimensionale per l'età prescolare",
+          "description": "Il problema: rendere lo screening dello sviluppo infantile accessibile, sistematico e condivisibile. Cosa ho costruito: durante il tirocinio di tesi per Koinè Cooperativa Sociale ONLUS ho progettato e sviluppato PiccoliPassi, una piattaforma full-stack di screening multidimensionale per l'età prescolare, con accessi per ruoli diversi, due protocolli di osservazione per fascia d'età e classificazione automatica dei risultati sulle curve di sviluppo.",
+          "tags": [
+            "UX Design",
+            "Data Collection",
+            "Multidisciplinary Team"
+          ],
+          "showSoon": false,
+          "screenshots": [
+            "media/screenshots/piccolipassi-7.jpg",
+            "media/screenshots/piccolipassi-8.jpg",
+            "media/screenshots/piccolipassi-4.jpg",
+            "media/screenshots/piccolipassi-5.jpg",
+            "media/screenshots/piccolipassi-6.jpg",
+            "media/screenshots/piccolipassi-1.jpg"
+          ],
+          "demoUrl": "https://piccolipassi-demo.netlify.app/",
+          "demoNote": "Demo pubblica con dati interamente fittizi: nessun dato reale è presente, per tutelare la privacy dei minori seguiti da Koinè.",
+          "bullets": [
+            "Ruoli multipli: accessi differenziati per maestre, staff e amministratori, con funzioni diverse per ciascun ruolo.",
+            "Due protocolli di osservazione, uno per ciascuna fascia d'età (3–6 anni), assegnati in base all'età del bambino.",
+            "Classificazione automatica dei risultati sulle curve di sviluppo.",
+            "Report radar individuale, con i risultati del bambino per area di sviluppo.",
+            "Analisi di gruppo sui dati aggregati delle valutazioni.",
+            "Raccolta e analisi dei dati in collaborazione con professionisti dell'ambito educativo e psicologico.",
+            "Definizione dei requisiti in un team multidisciplinare."
+          ],
+          "repoUrl": "https://github.com/Vikybassi/piccolipassi-demo"
+        },
+        {
+          "eyebrow": "Mobile Computing · 2026",
+          "title": "Fotogram",
+          "description": "Client Android per un social network di condivisione immagini. L'app gestisce una bacheca che mescola i post degli amici seguiti con contenuti di scoperta, con scroll infinito e refresh manuale. Include creazione post con immagine e testo, dettaglio profilo utente, e associazione opzionale di una posizione geografica tramite mappa. I post vengono identificati da ID univoci e salvati in cache locale per evitare download ridondanti, e la sessione utente viene persistita per una registrazione implicita senza login classico.",
+          "tags": [
+            "Android",
+            "Kotlin",
+            "REST API",
+            "OpenStreetMap",
+            "Local Caching",
+            "Session Persistence",
+            "Geolocation",
+            "Infinite Scroll",
+            "Image Handling"
+          ],
+          "showSoon": false,
+          "repoUrl": "https://github.com/Vikybassi/fotogram",
+          "video": "media/fotogram-demo.mp4",
+          "bullets": [
+            "Bacheca con post degli amici seguiti e un campione di post di altri utenti, ordinati per data.",
+            "Creazione di post con immagine e testo, caricamento da galleria.",
+            "Geolocalizzazione opzionale dei post su mappa, con visualizzazione della posizione dell'utente se nelle vicinanze.",
+            "Gestione persistente della sessione e caching locale dei post per evitare download ripetuti."
+          ]
+        },
+        {
+          "eyebrow": "Progetto personale · 2026",
+          "title": "Rientro prima del buio",
+          "subtitle": "Pianificatore di escursioni in Valtellina",
+          "description": "Il problema: in montagna, soprattutto in autunno, si parte senza sapere se si tornerà alla macchina con la luce. Cosa ho costruito: una web app con 362 escursioni in Valtellina e Valchiavenna che, scelti giro, giorno e ora di partenza, risponde se si rientra prima del buio (o, per chi dorme al rifugio, se ci si arriva con la luce), con le tappe lungo il sentiero, il tramonto e il meteo alla quota del sentiero. I giri nascono dai dati aperti di OpenStreetMap e da un modello del terreno; i tempi partono da quelli dei cartelli CAI.",
+          "tags": [
+            "React",
+            "TypeScript",
+            "OpenStreetMap",
+            "Geodati",
+            "Leaflet",
+            "PWA offline",
+            "Open-Meteo",
+            "Vitest"
+          ],
+          "showSoon": false,
+          "screenshots": [
+            "media/screenshots/rientro-1.jpg",
+            "media/screenshots/rientro-2.jpg",
+            "media/screenshots/rientro-3.jpg"
+          ],
+          "demoUrl": "https://vikybassi.github.io/rientro-prima-del-buio/",
+          "repoUrl": "https://github.com/Vikybassi/rientro-prima-del-buio",
+          "bullets": [
+            "Dati: su OpenStreetMap la rete CAI della provincia di Sondrio è salvata a tratti (561 sentieri su 727 finiscono a un innesto); l'ho ricomposta in un grafo e con un algoritmo di cammino minimo ho costruito 320 itinerari verso rifugi, bivacchi, laghi e passi, più 42 sentieri interi, tutti con partenza raggiungibile in auto.",
+            "Quote dal modello del terreno Copernicus a 30 m, con un filtro sul dislivello tarato sui dati ufficiali CAI: errore mediano del 3%.",
+            "Tempi di percorrenza: formula DIN 33466 calibrata sui cartelli CAI della provincia, passo personale e un margine per gli imprevisti; tramonto e crepuscolo calcolati per luogo e data.",
+            "Tappe lungo il sentiero (rifugi, alpeggi, laghi, fontane da OpenStreetMap) con l'ora entro cui esserci per tornare con la luce; modalità pernotto al rifugio; l'ora in cui il sole sparisce dietro le montagne, calcolata dall'orizzonte del modello del terreno fino a 40 km.",
+            "Meteo orario di Open-Meteo alla quota della partenza e della meta, con avvisi per temporali, raffiche, pioggia e zero termico nelle ore del giro.",
+            "App installabile che funziona anche senza campo (service worker), in italiano e inglese, con link condivisibile; test automatici sul motore di calcolo e pubblicazione continua su GitHub Pages."
+          ]
+        },
+        {
+          "eyebrow": "Social Media Mining · gen–feb 2026",
+          "title": "Engagement su YouTube Shorts",
+          "description": "Analisi delle dinamiche di engagement nei commenti di YouTube Shorts del canale Doggodaiily (oltre 2M follower), con network analysis, community detection e sentiment analysis per individuare pattern comportamentali e community affettive.",
+          "tags": [
+            "Network Analysis",
+            "Machine Learning",
+            "Sentiment Analysis",
+            "Python"
+          ],
+          "showSoon": false,
+          "diagram": "network",
+          "diagramCaption": "601 nodi · 30.166 archi · 5 community",
+          "docUrl": "docs/youtube-shorts-engagement.pdf",
+          "bullets": [
+            "Raccolta di 4.661 commenti di primo livello su 39 Shorts (1.647 utenti unici) tramite YouTube Data API v3.",
+            "Costruzione del network di co-engagement (arco tra due utenti se commentano insieme almeno 2 video): 601 nodi, 30.166 archi, densità 0,167 e clustering medio 0,82, segno di una forte coesione in micro-comunità.",
+            "Rilevamento di 5 community con il metodo di Louvain, con struttura stabile anche innalzando la soglia di filtro.",
+            "Isolation Forest per individuare utenti anomali (83 su 1.647): profilo da super-fan iperattivi e centrali nel network, non da bot o spam.",
+            "Sentiment analysis con modello Transformer sui commenti: 90% positivo, a conferma di un ecosistema a bassa tossicità e senza polarizzazione tra community."
+          ]
+        },
+        {
+          "eyebrow": "Basi di dati · 2023",
+          "title": "Gestione Ospedaliera",
+          "subtitle": "CRUD e interrogazioni SQL su PostgreSQL",
+          "description": "Applicazione web per la gestione di una struttura ospedaliera, sviluppata in PHP vanilla e PostgreSQL per l'esame di Basi di Dati. Copre l'intero ciclo CRUD su entità collegate (ospedali, reparti, personale, pazienti, esami, prenotazioni) con interrogazioni SQL avanzate e un'interfaccia che si genera dinamicamente leggendo la struttura delle tabelle da information_schema, invece di avere i campi hard-codati.",
+          "tags": [
+            "PHP",
+            "PostgreSQL",
+            "SQL",
+            "CRUD",
+            "Basi di Dati"
+          ],
+          "showSoon": false,
+          "schemaUrl": "schema-gestione-ospedaliera.html",
+          "bullets": [
+            "Visualizzazione dinamica di qualunque tabella del database, con colonne generate a runtime da information_schema invece che hard-codate.",
+            "Inserimento e aggiornamento di ospedali, personale (infermieri, medici, primari, vice primari, personale amministrativo), pazienti, esami e prenotazioni, con form che si adattano al ruolo scelto.",
+            "Interrogazioni SQL avanzate: vice primari che hanno sostituito il proprio primario, con conteggio via GROUP BY/HAVING e differenza di insiemi via EXCEPT.",
+            "Report incrociati tra tabelle collegate (personale in organico per reparto, storico ricoveri di un paziente, prenotazioni per codice fiscale), tramite JOIN multipli."
+          ]
+        },
+        {
+          "eyebrow": "Diritto dei prodotti digitali · 2022",
+          "title": "Web3, Blockchain e Phishing",
+          "description": "Studio giuridico sul fenomeno del phishing nell'ecosistema Web3, tra criptovalute e NFT: tecnologia blockchain, quadro normativo europeo e analisi di casi reali di truffe.",
+          "tags": [
+            "Web3",
+            "Blockchain",
+            "Phishing",
+            "Diritto Digitale"
+          ],
+          "showSoon": false,
+          "diagram": "chain",
+          "diagramCaption": "Registro distribuito, blocco dopo blocco",
+          "docUrl": "docs/web3-blockchain-phishing.pdf",
+          "bullets": [
+            "Analisi della tecnologia blockchain (registro distribuito, permissionless, public, open source) e della Risoluzione del Parlamento europeo del 3 ottobre 2018 su DLT e blockchain, con confronto tra i Paesi UE pionieri (Malta, Estonia, Slovenia).",
+            "Studio delle tecniche di phishing/scam nel Web3: falsi exchange e giveaway su Discord, popup MetaMask fraudolenti, furti di NFT prima della fase di mint.",
+            "Caso OpenSea (febbraio 2022): attacco di mail phishing mirato, 32 utenti colpiti e circa 1,7 milioni di dollari in Ethereum sottratti.",
+            "Casi del collezionista Todd Kramer (2,2 milioni di dollari, inclusi 4 Bored Ape Yacht Club) e dell'artista Beeple (account Twitter hackerato, circa 438.000 dollari tra ETH e NFT).",
+            "Panoramica della crescita dei furti in finanza decentralizzata (da 100 milioni di dollari nel 2019 a 2,3 miliardi nel 2021, +1330%): il phishing nel Web3 risulta più legato a carenze di educazione digitale che a debolezze strutturali della blockchain."
+          ]
+        }
+      ]
+    },
+    "schema": {
+      "eyebrow": "BASI DI DATI · SCHEMA",
+      "title": "Gestione Ospedaliera: schema ER",
+      "subhead": "Le 27 tabelle e le relazioni del database realizzato per l'esame di Basi di Dati, ricostruite direttamente dal dump SQL del progetto: chiavi primarie, chiavi esterne e vincoli, non un diagramma rifatto a mano.",
+      "backLink": "← Torna ai progetti",
+      "metaTables": "27 tabelle",
+      "metaChecks": "9 vincoli CHECK",
+      "metaDb": "PostgreSQL 16",
+      "legendTitle": "Come leggere il diagramma",
+      "legendIntro": "Notazione crow's-foot: il simbolo vicino a ogni tabella indica quante righe dell'altra parte possono esistere per una riga di questa.",
+      "legendItems": [
+        {
+          "symbol": "||—o{",
+          "text": "uno a molti, il lato “molti” è opzionale"
+        },
+        {
+          "symbol": "||—o|",
+          "text": "uno a uno, opzionale (sottotipo)"
+        },
+        {
+          "symbol": "PK",
+          "text": "chiave primaria"
+        },
+        {
+          "symbol": "FK",
+          "text": "chiave esterna"
+        }
+      ],
+      "diagramTitle": "Diagramma entità-relazione",
+      "diagramIntro": "Scorrevole in entrambe le direzioni: la struttura reale ha diverse gerarchie di sottotipo (lavoratore → medico → primario/vice primario, ambulatorio → interno/esterno).",
+      "diagramCaption": "PK,FK = colonna che è insieme chiave primaria e chiave esterna, tipico delle gerarchie di sottotipo",
+      "rulesTitle": "Regole di dominio",
+      "rulesIntro": "Vincoli CHECK scritti direttamente nello schema, non nell'applicazione: validi indipendentemente da come i dati vengono inseriti.",
+      "rules": [
+        {
+          "code": "esame_check",
+          "text": "Il costo mutua è sempre inferiore al costo normale."
+        },
+        {
+          "code": "lavoratore_check",
+          "text": "La data di nascita precede quella di assunzione."
+        },
+        {
+          "code": "reparto_check",
+          "text": "L'orario di fine turno del reparto è successivo a quello di inizio."
+        },
+        {
+          "code": "prenotazione_check",
+          "text": "La prenotazione non può essere fatta dopo la data dell'esame stesso."
+        },
+        {
+          "code": "ricovero_check",
+          "text": "La data di ricovero precede (o coincide con) quella di dimissione."
+        },
+        {
+          "code": "sostituzione_check",
+          "text": "La data di inizio sostituzione precede quella di fine."
+        },
+        {
+          "code": "ambulatorioesterno_check",
+          "text": "L'orario di apertura precede quello di chiusura."
+        },
+        {
+          "code": "turnopsmedico_check",
+          "text": "Inizio turno del medico al pronto soccorso precede la fine."
+        },
+        {
+          "code": "turnopsinfermiere_check",
+          "text": "Inizio turno dell'infermiere al pronto soccorso precede la fine."
+        }
+      ],
+      "dictTitle": "Dizionario dei dati",
+      "dictIntro": "Le 27 tabelle, raggruppate per area funzionale.",
+      "domains": [
+        {
+          "label": "Struttura ospedaliera",
+          "rows": [
+            {
+              "name": "ospedale",
+              "pk": "codice",
+              "desc": "Anagrafica delle strutture ospedaliere."
+            },
+            {
+              "name": "reparto",
+              "pk": "nome, ospedale",
+              "desc": "Reparti di un ospedale, con orari di apertura."
+            },
+            {
+              "name": "stanza",
+              "pk": "numero, reparto, ospedale",
+              "desc": "Stanze fisiche di un reparto, organizzate per piano."
+            },
+            {
+              "name": "letto",
+              "pk": "codletto",
+              "desc": "Letti di una stanza, con stato libero/occupato."
+            },
+            {
+              "name": "salaoperatoria",
+              "pk": "numero, reparto, ospedale",
+              "desc": "Sale operatorie assegnate a una stanza."
+            },
+            {
+              "name": "ambulatorio",
+              "pk": "codice",
+              "desc": "Superclasse comune ad ambulatori interni ed esterni."
+            },
+            {
+              "name": "ambulatoriointerno",
+              "pk": "codice",
+              "desc": "Ambulatorio ospitato in una stanza dell'ospedale."
+            },
+            {
+              "name": "ambulatorioesterno",
+              "pk": "codice",
+              "desc": "Ambulatorio esterno alla struttura, con indirizzo e orari propri."
+            },
+            {
+              "name": "ambulatorioesame",
+              "pk": "ambulatorio, codesame",
+              "desc": "Associazione N:N tra ambulatori ed esami erogabili."
+            },
+            {
+              "name": "prontosoccorso",
+              "pk": "ospedale",
+              "desc": "Pronto soccorso di un ospedale, con numero di reperibilità."
+            }
+          ]
+        },
+        {
+          "label": "Personale",
+          "rows": [
+            {
+              "name": "lavoratore",
+              "pk": "matricola",
+              "desc": "Superclasse anagrafica di tutto il personale."
+            },
+            {
+              "name": "medico",
+              "pk": "matricola",
+              "desc": "Sottotipo di lavoratore abilitato alla professione medica."
+            },
+            {
+              "name": "infermiere",
+              "pk": "matricola",
+              "desc": "Sottotipo di lavoratore infermieristico."
+            },
+            {
+              "name": "personaleamministrativo",
+              "pk": "matricola",
+              "desc": "Sottotipo di lavoratore per il personale di segreteria."
+            },
+            {
+              "name": "primario",
+              "pk": "matricola",
+              "desc": "Sottotipo di medico responsabile di un reparto."
+            },
+            {
+              "name": "viceprimario",
+              "pk": "matricola",
+              "desc": "Sottotipo di medico abilitato a sostituire un primario."
+            },
+            {
+              "name": "sostituzione",
+              "pk": "primario, datainizio",
+              "desc": "Periodi in cui un vice primario ha sostituito il proprio primario."
+            },
+            {
+              "name": "specializzazione",
+              "pk": "nome",
+              "desc": "Anagrafica delle specializzazioni mediche disponibili."
+            },
+            {
+              "name": "specializzazioneprimario",
+              "pk": "primario, specializzazione",
+              "desc": "Specializzazioni conseguite da ciascun primario, con data."
+            },
+            {
+              "name": "turnopsmedico",
+              "pk": "medico, datainizio, orainizio",
+              "desc": "Turni di reperibilità dei medici al pronto soccorso."
+            },
+            {
+              "name": "turnopsinfermiere",
+              "pk": "infermiere, datainizio, orainizio",
+              "desc": "Turni di reperibilità degli infermieri al pronto soccorso."
+            }
+          ]
+        },
+        {
+          "label": "Pazienti, esami e ricoveri",
+          "rows": [
+            {
+              "name": "paziente",
+              "pk": "cf",
+              "desc": "Anagrafica dei pazienti, con eventuale data di dimissione definitiva."
+            },
+            {
+              "name": "esame",
+              "pk": "codice",
+              "desc": "Catalogo degli esami erogabili, con costo pieno e costo mutua."
+            },
+            {
+              "name": "prenotazione",
+              "pk": "paziente, codesame, data",
+              "desc": "Prenotazione di un esame per un paziente presso un ambulatorio."
+            },
+            {
+              "name": "ricovero",
+              "pk": "paziente, dataricovero",
+              "desc": "Periodi di ricovero di un paziente in un letto specifico."
+            },
+            {
+              "name": "ricoveropatologia",
+              "pk": "patologia, paziente, dataricovero",
+              "desc": "Patologie diagnosticate durante un ricovero."
+            },
+            {
+              "name": "patologia",
+              "pk": "nome",
+              "desc": "Anagrafica delle patologie."
+            }
+          ]
+        }
+      ],
+      "footNote": "Ricostruito dallo schema (PRIMARY KEY, FOREIGN KEY, CHECK) del dump SQL del progetto: nessun dato reale, solo struttura."
+    },
+    "about": {
+      "eyebrow": "chi sono",
+      "title": "Chi sono",
+      "bio": [
+        "Sono cresciuta tra le montagne della Valtellina, un posto che mi ha insegnato l'importanza dello spazio e del silenzio. Da qualche anno vivo a Milano e sto concludendo la laurea in Informatica per la Comunicazione Digitale, con un percorso focalizzato su Social e Mobile Computing. In pratica mi occupo di sviluppo web e mobile, analisi dati e comunicazione.",
+        "Fuori dalla scrivania dipingo e ritrovo quella stessa sensazione di libertà delle mie origini muovendomi: corro, arrampico o cammino in montagna. Ho da poco terminato un tirocinio di tesi dedicato alla progettazione di una piattaforma digitale."
+      ],
+      "rootsTitle": "Radici",
+      "rootsCards": [
+        {
+          "eyebrow": "Valtellina",
+          "title": "Montagna",
+          "text": "Camminare sui sentieri è il mio modo per staccare e riordinare le idee. Dalle mie montagne ho imparato il valore dello spazio e del silenzio.",
+          "gallery": [
+            "media/sport/sport-3.jpg"
+          ]
+        },
+        {
+          "eyebrow": "Sport",
+          "title": "Movimento",
+          "text": "Lo sport fa parte della mia routine da sempre: è il modo in cui mi ricarico e resto in equilibrio con me stessa. Ho praticato corsa a livello agonistico, e mi diverto anche con l'arrampicata e le grandi camminate in montagna. Ad aprile 2026, durante la Design Week, sono stata selezionata per una sessione di corsa promozionale allo stand Nike Air Lab a Milano.",
+          "gallery": [
+            "media/sport/sport-1.jpg",
+            "media/sport/sport-2.jpg",
+            "media/sport/sport-4.jpg"
+          ]
+        },
+        {
+          "eyebrow": "Pittura",
+          "title": "Pittura",
+          "text": "Dai paesaggi alle forme più libere: dipingo quello che mi va di esplorare sul momento, per puro divertimento.",
+          "gallery": [
+            "media/quadri/quadro-1.jpg",
+            "media/quadri/quadro-2.jpg",
+            "media/quadri/quadro-3.jpg"
+          ]
+        },
+        {
+          "eyebrow": "Playlist",
+          "title": "Musica",
+          "text": "La musica mi accompagna da sempre, in ogni momento della giornata. I miei gusti spaziano parecchio: nella mia playlist stanno insieme Etta James e Fred again.., Battisti e i Portishead, Manu Chao e i Fleetwood Mac. Nel tempo libero mi diverto a mettere musica alla consolle, anche alle feste con gli amici. Il prossimo passo? Imparare a suonare il basso.",
+          "gallery": [
+            "media/archivio/quadro-musica.jpg"
+          ],
+          "playlist": {
+            "id": "57FuKbupQwMQzttrdmAoBE",
+            "name": "La mia playlist",
+            "tracks": "più di 100 brani",
+            "listen": "Ascolta la playlist",
+            "open": "Apri su Spotify",
+            "privacy": "Il player è di Spotify e si carica solo quando premi il pulsante.",
+            "frameTitle": "La mia playlist su Spotify"
+          }
+        }
+      ],
+      "archiveLink": "Sfoglia l'archivio"
+    },
+    "contact": {
+      "title": "Contatti"
+    },
+    "resume": {
+      "title": "Percorso",
+      "intro": "Formazione, esperienza e competenze.",
+      "educationTitle": "Formazione",
+      "degree": {
+        "title": "Informatica per la Comunicazione Digitale, percorso Social e Mobile Computing",
+        "org": "Università degli Studi di Milano",
+        "dates": "2021 – gennaio 2027 (prevista)"
+      },
+      "educationBlocks": [
+        {
+          "label": "Basi di Dati e Web",
+          "bullets": [
+            "Progettazione di basi di dati relazionali e interrogazione tramite SQL.",
+            "Sviluppo di applicazioni web con scripting lato server per l'acquisizione dinamica dei dati."
+          ]
+        },
+        {
+          "label": "Applicazioni Web e Cloud",
+          "bullets": [
+            "Principi di progettazione e sviluppo di applicazioni web e modelli di cloud computing.",
+            "Esercitazioni pratiche di sviluppo con impatto delle tecnologie cloud."
+          ]
+        },
+        {
+          "label": "Mobile Computing",
+          "bullets": [
+            "Progetto “Fotogram”: prototipo Android di un social network di condivisione immagini.",
+            "Gestione della sessione utente, caching locale e sincronizzazione via API REST."
+          ]
+        },
+        {
+          "label": "Altri ambiti di studio",
+          "bullets": [
+            "Reti di calcolatori, interazione uomo-macchina, social media mining, marketing digitale e diritto dei prodotti digitali e dell'IA."
+          ]
+        }
+      ],
+      "diploma": {
+        "title": "Diploma in Ragioneria Turistica",
+        "org": "Istituto Tecnico Statale De Simoni / Quadrio",
+        "dates": "a.s. 2020/2021"
+      },
+      "experienceTitle": "Esperienza",
+      "experience": [
+        {
+          "title": "Tirocinio di tesi, sviluppo prodotto digitale & UX",
+          "org": "Koinè Cooperativa Sociale ONLUS",
+          "dates": "2025 – luglio 2026",
+          "bullets": [
+            "Progettazione e sviluppo di una piattaforma digitale per la scuola dell'infanzia.",
+            "Raccolta e analisi dei dati con professionisti dell'ambito educativo e psicologico.",
+            "Definizione dei requisiti in un team multidisciplinare.",
+            "Presentazione della piattaforma allo staff di Koinè a fine tirocinio (luglio 2026)."
+          ]
+        },
+        {
+          "title": "Digital Investor's Personal Assistant",
+          "org": "Community Discord",
+          "dates": "giugno 2021 – ottobre 2022",
+          "bullets": [
+            "Monitoraggio di 35–40 canali Discord e dei siti collegati per individuare e pianificare gli eventi rilevanti per l'investitore.",
+            "Gestione quotidiana delle comunicazioni digitali su Discord per una community attiva di investitori.",
+            "Moderazione dei contenuti e supporto diretto ai membri della community.",
+            "Ricerca e analisi di progetti digitali (NFT, OpenSea) a supporto delle decisioni.",
+            "Redazione di paper e guide: riassunto del white paper di una collezione NFT, nota strategica e guida per un gioco blockchain, FAQ di un MMORPG, con sintesi di fonti da Twitter, Discord e Telegram e raccomandazioni personali."
+          ]
+        },
+        {
+          "title": "Receptionist",
+          "org": "“La Brace”",
+          "dates": "2021 – 2022",
+          "bullets": [
+            "Accoglienza e assistenza clienti in un contesto multitasking, con responsabilità di front office."
+          ]
+        }
+      ],
+      "certificationsTitle": "Certificazioni",
+      "certViewLabel": "Vedi certificato →",
+      "certifications": [
+        {
+          "issuer": "ANTHROPIC · UCC · RINGLING COLLEGE OF ART + DESIGN",
+          "title": "AI Fluency for Students",
+          "desc": "Comprensione dei modelli linguistici, uso etico dell'IA generativa e integrazione nei processi accademici e creativi.",
+          "file": "certificates/ai-fluency-for-students.pdf"
+        },
+        {
+          "issuer": "ANTHROPIC · UCC · RINGLING COLLEGE OF ART + DESIGN",
+          "title": "AI Fluency: Framework & Foundations",
+          "desc": "Framework Delegation, Description, Discernment e Diligence per l'uso responsabile e critico degli strumenti di IA.",
+          "file": "certificates/ai-fluency-framework-foundations.pdf"
+        },
+        {
+          "issuer": "ANTHROPIC",
+          "title": "Claude 101",
+          "desc": "Uso di Claude per ricerca, generazione di contenuti, automazione dei workflow e supporto ai processi decisionali.",
+          "file": "certificates/claude-101.pdf"
+        },
+        {
+          "issuer": "SEMRUSH ACADEMY",
+          "title": "Come creare il sito web di una piccola azienda",
+          "desc": "SEO e scrittura persuasiva per il web: individuazione delle keyword e struttura dei contenuti.",
+          "file": "certificates/semrush-sito-web-piccola-azienda.pdf"
+        },
+        {
+          "issuer": "VEGA FORMAZIONE",
+          "title": "Sicurezza Lavoratori, Parte Generale",
+          "desc": "Corso conforme all'Art. 37 del D.Lgs. 81/08: rischio, prevenzione, protezione e organizzazione della sicurezza aziendale."
+        }
+      ],
+      "skillsTitle": "Competenze",
+      "skillGroups": [
+        {
+          "label": "Tecniche",
+          "items": [
+            "JavaScript",
+            "Kotlin",
+            "Go",
+            "React",
+            "UX/UI",
+            "SQL",
+            "Network Analysis",
+            "Prompt Engineering",
+            "Sviluppo assistito da AI",
+            "SEO"
+          ]
+        },
+        {
+          "label": "Comunicazione Digitale",
+          "items": [
+            "Content creation",
+            "Community management",
+            "Storytelling",
+            "Brand voice"
+          ]
+        },
+        {
+          "label": "Creatività & Movimento",
+          "items": [
+            "Pittura",
+            "Corsa",
+            "Arrampicata",
+            "Trekking"
+          ]
+        },
+        {
+          "label": "Trasversali",
+          "items": [
+            "Empatia",
+            "Teamwork",
+            "Curiosità",
+            "Apprendimento continuo"
+          ]
+        }
+      ],
+      "languagesTitle": "Lingue",
+      "languages": "Italiano: Madrelingua · Inglese: Fluente (B2) · Tedesco: Base (A2) · Francese: Base (A2)",
+      "interestsTitle": "Interessi",
+      "interests": "Trekking e montagna, pittura, corsa, arrampicata, arte e cultura digitale."
+    },
+    "archive": {
+      "title": "Archivio",
+      "intro": "Quadri, montagne, sport e un po' della mia vita fuori dallo schermo.",
+      "prev": "Immagine precedente",
+      "next": "Immagine successiva",
+      "items": [
+        {
+          "src": "media/quadri/quadro-2.jpg",
+          "title": "Pittura",
+          "note": "Quadro"
+        },
+        {
+          "src": "media/archivio/mare.jpg",
+          "title": "Mare",
+          "note": "Villasimius, Sardegna, 2024"
+        },
+        {
+          "src": "media/sport/sport-2.jpg",
+          "title": "Movimento",
+          "note": "Sport"
+        },
+        {
+          "src": "media/archivio/quadro-musica.jpg",
+          "title": "Pittura",
+          "note": "Musica"
+        },
+        {
+          "src": "media/archivio/gatti.jpg",
+          "title": "Animali",
+          "note": "Gatti, Valtellina, 2025"
+        },
+        {
+          "src": "photos/vetta-1100.jpg",
+          "title": "Montagna",
+          "note": "Una cresta al tramonto"
+        },
+        {
+          "src": "media/quadri/quadro-1.jpg",
+          "title": "Pittura",
+          "note": "Quadro"
+        },
+        {
+          "src": "media/archivio/moto.jpg",
+          "title": "Movimento",
+          "note": "In moto verso il Bernina, 2025"
+        },
+        {
+          "src": "media/archivio/da-piccola.jpg",
+          "title": "Radici",
+          "note": "Da piccola"
+        },
+        {
+          "src": "media/archivio/neve.jpg",
+          "title": "Montagna",
+          "note": "Desenigo"
+        },
+        {
+          "src": "media/archivio/consolle.jpg",
+          "title": "Musica",
+          "note": "Alla consolle",
+          "pos": "0% 50%"
+        },
+        {
+          "src": "media/archivio/quadro-surf.jpg",
+          "title": "Pittura",
+          "note": "Surf al tramonto"
+        },
+        {
+          "src": "media/sport/sport-1.jpg",
+          "title": "Movimento",
+          "note": "Sport"
+        },
+        {
+          "src": "media/archivio/prato.jpg",
+          "title": "Montagna",
+          "note": "Prati in quota"
+        },
+        {
+          "src": "media/quadri/quadro-3.jpg",
+          "title": "Pittura",
+          "note": "Quadro"
+        },
+        {
+          "src": "media/sport/sport-4.jpg",
+          "title": "Movimento",
+          "note": "Sport"
+        }
+      ]
+    },
+    "journey": {
+      "kicker": "Piacere, sono",
+      "lead": "Un viaggio tra le cose che mi rendono me stessa.",
+      "start": "Vieni con me",
+      "stops": [
+        {
+          "n": "01 · Codice",
+          "title": "Codice",
+          "text": "Mi piace costruire cose che servono davvero: una piattaforma per le scuole dell'infanzia, un'app per tornare prima del buio, un social per le foto."
+        },
+        {
+          "n": "02 · Pittura",
+          "title": "Pittura",
+          "text": "Dai paesaggi alle forme più libere: dipingo per puro divertimento."
+        },
+        {
+          "n": "03 · Musica",
+          "title": "Musica",
+          "text": "Mi accompagna da sempre. Nel tempo libero mi diverto alla consolle.",
+          "link": {
+            "label": "Ascolta la mia playlist",
+            "href": "https://open.spotify.com/playlist/57FuKbupQwMQzttrdmAoBE"
+          }
+        },
+        {
+          "n": "04 · Movimento",
+          "title": "Movimento",
+          "text": "Lo sport è il modo in cui mi ricarico e resto in equilibrio: corsa, arrampicata, grandi camminate."
+        },
+        {
+          "n": "05 · Montagna",
+          "title": "Montagna",
+          "text": "Sono cresciuta tra le montagne della Valtellina: mi hanno insegnato il valore dello spazio e del silenzio."
+        }
+      ],
+      "end": {
+        "n": "06 · Fine",
+        "light": "Grazie",
+        "bold": "del viaggio",
+        "text": "Se vuoi conoscermi meglio, da qui puoi continuare."
+      },
+      "endLinks": [
+        {
+          "label": "Progetti",
+          "href": "/projects"
+        },
+        {
+          "label": "Chi sono",
+          "href": "/about"
+        },
+        {
+          "label": "Archivio",
+          "href": "/archive"
+        },
+        {
+          "label": "Musica",
+          "href": "/about#musica"
+        },
+        {
+          "label": "Contatti",
+          "href": "/about#contatti"
+        }
+      ],
+      "progressStart": "Scorri per esplorare",
+      "progressDrag": "Trascina il disco",
+      "code": {
+        "file": "rientro.js",
+        "lines": [
+          "function rientro(partenza, passo) {",
+          "  const luce = tramonto() - 30;",
+          "  return arrivo(partenza, passo) < luce;",
+          "}",
+          "",
+          "rientro(\"08:00\", \"come i cartelli\");"
+        ],
+        "answer": "→ Sì, rientri con la luce"
+      }
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "projects": "Projects",
+      "about": "About",
+      "cv": "CV",
+      "resume": "Background",
+      "archive": "Archive"
+    },
+    "footer": {
+      "rights": "Made with care in Milan."
+    },
+    "home": {
+      "kicker": "Portfolio",
+      "headline": "Vittoria Bassi",
+      "subhead": "Web and mobile development, data and communication. Finishing Computer Science for Digital Communication in Milan. Rooted in Valtellina.",
+      "ctaPrimary": "View projects",
+      "ctaSecondary": "About me",
+      "pillarsTitle": "What moves me",
+      "pillars": [
+        {
+          "label": "Development & Data",
+          "desc": "JavaScript, Kotlin, Go, React, network analysis and machine learning."
+        },
+        {
+          "label": "Digital Communication",
+          "desc": "Content creation, community management, SEO, storytelling."
+        },
+        {
+          "label": "Painting & Color",
+          "desc": "From landscapes to freer shapes: I paint whatever I feel like exploring in the moment, purely for fun."
+        },
+        {
+          "label": "Mountains & Sport",
+          "desc": "Competitive running, climbing and trekking in Valtellina and beyond."
+        },
+        {
+          "label": "Animals",
+          "desc": "I love animals, of every kind."
+        }
+      ],
+      "featuredTitle": "Selected work",
+      "featured": [
+        {
+          "project": 0,
+          "title": "PiccoliPassi",
+          "blurb": "Digital platform for early-childhood education, for Koinè Cooperativa Sociale ONLUS."
+        },
+        {
+          "project": 1,
+          "title": "Fotogram",
+          "blurb": "Android prototype of an image-sharing social network."
+        },
+        {
+          "project": 2,
+          "title": "Back before dark",
+          "blurb": "Pick a hike in Valtellina and a start time: it tells you whether you'll be back at the car in daylight, with times, sunset and weather at altitude."
+        }
+      ],
+      "seeAll": "See everything"
+    },
+    "projects": {
+      "eyebrow": "projects",
+      "title": "Projects",
+      "intro": "Things I make.",
+      "details": "Details",
+      "hide": "Hide",
+      "soon": "Coming soon on GitHub",
+      "galleryHint": "Some of my paintings, coming soon",
+      "demoLabel": "Try the demo",
+      "repoLabel": "Source code",
+      "docLabel": "Read the PDF",
+      "schemaLabel": "View the ER schema",
+      "items": [
+        {
+          "eyebrow": "Thesis internship · 2025 – July 2026",
+          "title": "PiccoliPassi",
+          "subtitle": "A multidimensional screening platform for preschool age",
+          "description": "The problem: making child development screening accessible, systematic and shareable. What I built: during my thesis internship at Koinè Cooperativa Sociale ONLUS I designed and developed PiccoliPassi, a full-stack multidimensional screening platform for preschool age, with role-based access, two observation protocols by age group and automatic classification of results against standard development curves.",
+          "tags": [
+            "UX Design",
+            "Data Collection",
+            "Multidisciplinary Team"
+          ],
+          "showSoon": false,
+          "screenshots": [
+            "media/screenshots/piccolipassi-7.jpg",
+            "media/screenshots/piccolipassi-8.jpg",
+            "media/screenshots/piccolipassi-4.jpg",
+            "media/screenshots/piccolipassi-5.jpg",
+            "media/screenshots/piccolipassi-6.jpg",
+            "media/screenshots/piccolipassi-1.jpg"
+          ],
+          "demoUrl": "https://piccolipassi-demo.netlify.app/",
+          "demoNote": "Public demo with entirely fictitious data: no real data is included, to protect the privacy of the children Koinè works with.",
+          "bullets": [
+            "Multiple roles: differentiated access for teachers, staff and administrators, with different features for each role.",
+            "Two observation protocols, one for each age group (3–6 years), assigned according to the child's age.",
+            "Automatic classification of results against development curves.",
+            "Individual radar report showing the child's results by development area.",
+            "Group analysis of the aggregated assessment data.",
+            "Data collection and analysis in collaboration with education and psychology professionals.",
+            "Requirements gathering within a multidisciplinary team."
+          ],
+          "repoUrl": "https://github.com/Vikybassi/piccolipassi-demo"
+        },
+        {
+          "eyebrow": "Mobile Computing · 2026",
+          "title": "Fotogram",
+          "description": "Android client for an image-sharing social network. The app manages a feed that blends posts from followed friends with discovery content, with infinite scroll and manual refresh. It includes post creation with image and caption, user profile detail, and optional geolocation tagging via map. Particular attention was given to efficiency: posts are identified by unique IDs and cached locally to avoid redundant downloads, and the user session is persisted for implicit registration without a classic login.",
+          "tags": [
+            "Android",
+            "Kotlin",
+            "REST API",
+            "OpenStreetMap",
+            "Local Caching",
+            "Session Persistence",
+            "Geolocation",
+            "Infinite Scroll",
+            "Image Handling"
+          ],
+          "showSoon": false,
+          "repoUrl": "https://github.com/Vikybassi/fotogram",
+          "video": "media/fotogram-demo.mp4",
+          "bullets": [
+            "Feed showing posts from followed friends plus a sample of other users' posts, sorted by date.",
+            "Post creation with image and caption, uploaded from the gallery.",
+            "Optional post geolocation on a map, showing the user's own position when nearby.",
+            "Persistent session handling and local post caching to avoid redundant downloads."
+          ]
+        },
+        {
+          "eyebrow": "Personal project · 2026",
+          "title": "Back before dark",
+          "subtitle": "A hike planner for Valtellina",
+          "description": "The problem: in the mountains, especially in autumn, people set off without knowing whether they'll be back at the car in daylight. What I built: a web app with 362 day hikes in Valtellina and Valchiavenna (Italian Alps) that, given a hike, a date and a start time, tells you whether you'll be back before dark (or, if you sleep at the hut, whether you get there in daylight), with the stops along the trail, sunset and the weather at trail altitude. Hikes are built from OpenStreetMap open data and a terrain model; walking times start from the official CAI signpost times.",
+          "tags": [
+            "React",
+            "TypeScript",
+            "OpenStreetMap",
+            "Geodata",
+            "Leaflet",
+            "Offline PWA",
+            "Open-Meteo",
+            "Vitest"
+          ],
+          "showSoon": false,
+          "screenshots": [
+            "media/screenshots/rientro-1.jpg",
+            "media/screenshots/rientro-2.jpg",
+            "media/screenshots/rientro-3.jpg"
+          ],
+          "demoUrl": "https://vikybassi.github.io/rientro-prima-del-buio/",
+          "repoUrl": "https://github.com/Vikybassi/rientro-prima-del-buio",
+          "bullets": [
+            "Data: on OpenStreetMap the CAI trail network of the province of Sondrio is stored in pieces (561 of 727 trails end at a junction); I rebuilt it as a graph and used a shortest-path algorithm to create 320 routes to huts, bivouacs, lakes and passes, plus 42 complete trails, all starting where you can drive to.",
+            "Elevations from the 30 m Copernicus terrain model, with an elevation-gain filter calibrated on official CAI data: 3% median error.",
+            "Walking times: the DIN 33466 formula calibrated on the province's CAI signposts, the hiker's own pace and a margin for the unexpected; sunset and dusk computed for place and date.",
+            "Stops along the trail (huts, pastures, lakes, fountains from OpenStreetMap) with the latest time to be there and still get back in daylight; an overnight-at-the-hut mode; the time the sun goes behind the mountains, computed from the terrain-model horizon up to 40 km.",
+            "Hourly Open-Meteo forecast at the altitude of the start and of the destination, with warnings for thunderstorms, gusts, rain and freezing level during the hike.",
+            "Installable app that works without signal (service worker), in Italian and English, with a shareable link; automated tests on the calculation engine and continuous deployment to GitHub Pages."
+          ]
+        },
+        {
+          "eyebrow": "Social Media Mining · Jan–Feb 2026",
+          "title": "YouTube Shorts Engagement Analysis",
+          "description": "Analysis of engagement dynamics in the comments of the Doggodaiily YouTube Shorts channel (2M+ followers), using network analysis, community detection and sentiment analysis to uncover behavioral patterns and affective communities.",
+          "tags": [
+            "Network Analysis",
+            "Machine Learning",
+            "Sentiment Analysis",
+            "Python"
+          ],
+          "showSoon": false,
+          "diagram": "network",
+          "diagramCaption": "601 nodes · 30,166 edges · 5 communities",
+          "docUrl": "docs/youtube-shorts-engagement.pdf",
+          "bullets": [
+            "Collected 4,661 top-level comments across 39 Shorts (1,647 unique users) via the YouTube Data API v3.",
+            "Built a co-engagement network (an edge links two users who commented on at least 2 videos in common): 601 nodes, 30,166 edges, density 0.167 and average clustering 0.82, a sign of strong cohesion into micro-communities.",
+            "Detected 5 communities with the Louvain method, stable even when raising the filter threshold.",
+            "Used Isolation Forest to flag anomalous users (83 of 1,647): profile of hyperactive, highly central super-fans rather than bots or spam.",
+            "Ran a Transformer-based sentiment analysis on the comments: 90% positive, confirming a low-toxicity ecosystem with no polarization across communities."
+          ]
+        },
+        {
+          "eyebrow": "Databases · 2023",
+          "title": "Hospital Management System",
+          "subtitle": "CRUD and SQL queries on PostgreSQL",
+          "description": "Web application for managing a hospital, built with vanilla PHP and PostgreSQL for a Databases course exam. It covers the full CRUD cycle over related entities (hospitals, departments, staff, patients, exams, bookings) with advanced SQL queries and an interface that generates itself dynamically by reading table structure from information_schema, instead of hard-coding fields.",
+          "tags": [
+            "PHP",
+            "PostgreSQL",
+            "SQL",
+            "CRUD",
+            "Databases"
+          ],
+          "showSoon": false,
+          "schemaUrl": "schema-gestione-ospedaliera.html",
+          "bullets": [
+            "Dynamic display of any database table, with columns generated at runtime from information_schema instead of being hard-coded.",
+            "Create and update forms for hospitals, staff (nurses, doctors, department heads, deputy heads, admin staff), patients, exams and bookings, adapting to the selected role.",
+            "Advanced SQL queries: deputy heads who substituted for their department head, using GROUP BY/HAVING for counts and EXCEPT for set differences.",
+            "Cross-table reports (staff on duty per department, a patient's admission history, bookings by fiscal code), built with multiple JOINs."
+          ]
+        },
+        {
+          "eyebrow": "Digital products law · 2022",
+          "title": "Web3, Blockchain & Phishing",
+          "description": "Legal study on phishing within the Web3 ecosystem, across cryptocurrencies and NFTs: blockchain technology, the EU regulatory framework, and analysis of real-world scam cases.",
+          "tags": [
+            "Web3",
+            "Blockchain",
+            "Phishing",
+            "Digital Law"
+          ],
+          "showSoon": false,
+          "diagram": "chain",
+          "diagramCaption": "A distributed ledger, block by block",
+          "docUrl": "docs/web3-blockchain-phishing.pdf",
+          "bullets": [
+            "Analyzed blockchain technology (distributed ledger, permissionless, public, open source) and the European Parliament's 3 October 2018 Resolution on DLT and blockchain, comparing pioneering EU countries (Malta, Estonia, Slovenia).",
+            "Studied Web3 phishing/scam techniques: fake exchanges and giveaways on Discord, fraudulent MetaMask pop-ups, NFT theft before the minting phase.",
+            "OpenSea case (February 2022): targeted email phishing attack, 32 users affected and roughly $1.7 million in Ethereum stolen.",
+            "Cases of collector Todd Kramer ($2.2 million, including 4 Bored Ape Yacht Club NFTs) and artist Beeple (hacked Twitter account, roughly $438,000 in ETH and NFTs).",
+            "Overview of the growth of DeFi thefts (from $100 million in 2019 to $2.3 billion in 2021, +1,330%): Web3 phishing turns out to stem more from a lack of digital education than from structural weaknesses in blockchain itself."
+          ]
+        }
+      ]
+    },
+    "schema": {
+      "eyebrow": "DATABASES · SCHEMA",
+      "title": "Hospital Management System: ER schema",
+      "subhead": "The 27 tables and relationships of the database built for a Databases course exam, reconstructed directly from the project's SQL dump: primary keys, foreign keys and constraints, not a diagram redrawn by hand.",
+      "backLink": "← Back to projects",
+      "metaTables": "27 tables",
+      "metaChecks": "9 CHECK constraints",
+      "metaDb": "PostgreSQL 16",
+      "legendTitle": "How to read the diagram",
+      "legendIntro": "Crow's-foot notation: the symbol next to each table shows how many rows on the other side can exist for one row on this side.",
+      "legendItems": [
+        {
+          "symbol": "||—o{",
+          "text": "one to many, the \"many\" side is optional"
+        },
+        {
+          "symbol": "||—o|",
+          "text": "one to one, optional (subtype)"
+        },
+        {
+          "symbol": "PK",
+          "text": "primary key"
+        },
+        {
+          "symbol": "FK",
+          "text": "foreign key"
+        }
+      ],
+      "diagramTitle": "Entity-relationship diagram",
+      "diagramIntro": "Scrollable in both directions: the real structure has several subtype hierarchies (worker → doctor → head/deputy head of department, clinic → internal/external).",
+      "diagramCaption": "PK,FK = column that is both a primary and a foreign key, typical of subtype hierarchies",
+      "rulesTitle": "Domain rules",
+      "rulesIntro": "CHECK constraints written directly into the schema, not into the application: enforced regardless of how the data gets inserted.",
+      "rules": [
+        {
+          "code": "esame_check",
+          "text": "The subsidized-rate cost is always lower than the full cost."
+        },
+        {
+          "code": "lavoratore_check",
+          "text": "Date of birth precedes date of hire."
+        },
+        {
+          "code": "reparto_check",
+          "text": "A department's shift end time is later than its start time."
+        },
+        {
+          "code": "prenotazione_check",
+          "text": "A booking can't be made after the exam date itself."
+        },
+        {
+          "code": "ricovero_check",
+          "text": "Admission date precedes (or matches) discharge date."
+        },
+        {
+          "code": "sostituzione_check",
+          "text": "A substitution's start date precedes its end date."
+        },
+        {
+          "code": "ambulatorioesterno_check",
+          "text": "Opening time precedes closing time."
+        },
+        {
+          "code": "turnopsmedico_check",
+          "text": "A doctor's ER shift start precedes its end."
+        },
+        {
+          "code": "turnopsinfermiere_check",
+          "text": "A nurse's ER shift start precedes its end."
+        }
+      ],
+      "dictTitle": "Data dictionary",
+      "dictIntro": "The 27 tables, grouped by functional area.",
+      "domains": [
+        {
+          "label": "Hospital structure",
+          "rows": [
+            {
+              "name": "ospedale",
+              "pk": "codice",
+              "desc": "Hospital facilities registry."
+            },
+            {
+              "name": "reparto",
+              "pk": "nome, ospedale",
+              "desc": "A hospital's departments, with opening hours."
+            },
+            {
+              "name": "stanza",
+              "pk": "numero, reparto, ospedale",
+              "desc": "Physical rooms within a department, organized by floor."
+            },
+            {
+              "name": "letto",
+              "pk": "codletto",
+              "desc": "Beds within a room, with a free/occupied status."
+            },
+            {
+              "name": "salaoperatoria",
+              "pk": "numero, reparto, ospedale",
+              "desc": "Operating rooms assigned to a room."
+            },
+            {
+              "name": "ambulatorio",
+              "pk": "codice",
+              "desc": "Shared superclass for internal and external clinics."
+            },
+            {
+              "name": "ambulatoriointerno",
+              "pk": "codice",
+              "desc": "A clinic hosted inside a hospital room."
+            },
+            {
+              "name": "ambulatorioesterno",
+              "pk": "codice",
+              "desc": "An external clinic, with its own address and hours."
+            },
+            {
+              "name": "ambulatorioesame",
+              "pk": "ambulatorio, codesame",
+              "desc": "Many-to-many link between clinics and the exams they offer."
+            },
+            {
+              "name": "prontosoccorso",
+              "pk": "ospedale",
+              "desc": "A hospital's emergency room, with an on-call phone number."
+            }
+          ]
+        },
+        {
+          "label": "Staff",
+          "rows": [
+            {
+              "name": "lavoratore",
+              "pk": "matricola",
+              "desc": "Shared registry superclass for all staff."
+            },
+            {
+              "name": "medico",
+              "pk": "matricola",
+              "desc": "Staff subtype licensed to practice medicine."
+            },
+            {
+              "name": "infermiere",
+              "pk": "matricola",
+              "desc": "Nursing staff subtype."
+            },
+            {
+              "name": "personaleamministrativo",
+              "pk": "matricola",
+              "desc": "Administrative/front-desk staff subtype."
+            },
+            {
+              "name": "primario",
+              "pk": "matricola",
+              "desc": "Doctor subtype responsible for a department."
+            },
+            {
+              "name": "viceprimario",
+              "pk": "matricola",
+              "desc": "Doctor subtype authorized to stand in for a department head."
+            },
+            {
+              "name": "sostituzione",
+              "pk": "primario, datainizio",
+              "desc": "Periods when a deputy head stood in for their department head."
+            },
+            {
+              "name": "specializzazione",
+              "pk": "nome",
+              "desc": "Registry of available medical specializations."
+            },
+            {
+              "name": "specializzazioneprimario",
+              "pk": "primario, specializzazione",
+              "desc": "Specializations held by each department head, with the date earned."
+            },
+            {
+              "name": "turnopsmedico",
+              "pk": "medico, datainizio, orainizio",
+              "desc": "Doctors' on-call shifts in the emergency room."
+            },
+            {
+              "name": "turnopsinfermiere",
+              "pk": "infermiere, datainizio, orainizio",
+              "desc": "Nurses' on-call shifts in the emergency room."
+            }
+          ]
+        },
+        {
+          "label": "Patients, exams & admissions",
+          "rows": [
+            {
+              "name": "paziente",
+              "pk": "cf",
+              "desc": "Patient registry, with an optional final discharge date."
+            },
+            {
+              "name": "esame",
+              "pk": "codice",
+              "desc": "Catalog of available exams, with full and subsidized cost."
+            },
+            {
+              "name": "prenotazione",
+              "pk": "paziente, codesame, data",
+              "desc": "A patient's booking for an exam at a clinic."
+            },
+            {
+              "name": "ricovero",
+              "pk": "paziente, dataricovero",
+              "desc": "A patient's admission periods in a specific bed."
+            },
+            {
+              "name": "ricoveropatologia",
+              "pk": "patologia, paziente, dataricovero",
+              "desc": "Conditions diagnosed during an admission."
+            },
+            {
+              "name": "patologia",
+              "pk": "nome",
+              "desc": "Registry of medical conditions."
+            }
+          ]
+        }
+      ],
+      "footNote": "Reconstructed from the project's SQL dump schema (PRIMARY KEY, FOREIGN KEY, CHECK): no real data, structure only."
+    },
+    "about": {
+      "eyebrow": "about",
+      "title": "About me",
+      "bio": [
+        "I grew up among the mountains of Valtellina, a place that taught me the importance of space and quiet. I've lived in Milan for a few years now and I'm finishing my degree in Computer Science for Digital Communication, on the Social and Mobile Computing track. In practice, I work on web and mobile development, data analysis and communication.",
+        "Away from the desk I paint, and I find that same sense of freedom from my roots by moving: running, climbing or hiking in the mountains. I recently completed a thesis internship designing a digital platform."
+      ],
+      "rootsTitle": "Roots",
+      "rootsCards": [
+        {
+          "eyebrow": "Valtellina",
+          "title": "Mountains",
+          "text": "Walking the trails is how I switch off and get my thoughts back in order. My mountains taught me the value of space and quiet.",
+          "gallery": [
+            "media/sport/sport-3.jpg"
+          ]
+        },
+        {
+          "eyebrow": "Sport",
+          "title": "Movement",
+          "text": "Sport has always been part of my routine: it's how I recharge and stay in balance with myself. I used to run competitively, and I also enjoy climbing and long hikes in the mountains. In April 2026, during Design Week, I was selected for a promotional running session at the Nike Air Lab stand in Milan.",
+          "gallery": [
+            "media/sport/sport-1.jpg",
+            "media/sport/sport-2.jpg",
+            "media/sport/sport-4.jpg"
+          ]
+        },
+        {
+          "eyebrow": "Painting",
+          "title": "Painting",
+          "text": "From landscapes to freer shapes: I paint whatever I feel like exploring in the moment, purely for fun.",
+          "gallery": [
+            "media/quadri/quadro-1.jpg",
+            "media/quadri/quadro-2.jpg",
+            "media/quadri/quadro-3.jpg"
+          ]
+        },
+        {
+          "eyebrow": "Playlist",
+          "title": "Music",
+          "text": "Music has always been with me, all through the day. My taste ranges widely: in my playlist Etta James sits next to Fred again.., Battisti next to Portishead, Manu Chao next to Fleetwood Mac. In my free time I love DJing, including at parties with friends. Next step? Learning to play the bass.",
+          "gallery": [
+            "media/archivio/quadro-musica.jpg"
+          ],
+          "playlist": {
+            "id": "57FuKbupQwMQzttrdmAoBE",
+            "name": "My playlist",
+            "tracks": "over 100 tracks",
+            "listen": "Listen to the playlist",
+            "open": "Open on Spotify",
+            "privacy": "The player is Spotify's and only loads when you press the button.",
+            "frameTitle": "My playlist on Spotify"
+          }
+        }
+      ],
+      "archiveLink": "Browse the archive"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "resume": {
+      "title": "Background",
+      "intro": "Education, experience and skills.",
+      "educationTitle": "Education",
+      "degree": {
+        "title": "Computer Science for Digital Communication, Social and Mobile Computing track",
+        "org": "University of Milan",
+        "dates": "2021 – January 2027 (expected)"
+      },
+      "educationBlocks": [
+        {
+          "label": "Databases and Web",
+          "bullets": [
+            "Design of relational databases and querying with SQL.",
+            "Development of web applications with server-side scripting for dynamic data retrieval."
+          ]
+        },
+        {
+          "label": "Web Applications and Cloud",
+          "bullets": [
+            "Principles of web application design and cloud computing service models.",
+            "Hands-on labs building applications leveraging cloud technologies."
+          ]
+        },
+        {
+          "label": "Mobile Computing",
+          "bullets": [
+            "“Fotogram” project: Android prototype of an image-sharing social network.",
+            "User session management, local caching, and synchronization via REST APIs."
+          ]
+        },
+        {
+          "label": "Other areas of study",
+          "bullets": [
+            "Computer networks, human-computer interaction, social media mining, digital marketing, and digital products & AI law."
+          ]
+        }
+      ],
+      "diploma": {
+        "title": "Diploma in Tourism Accounting",
+        "org": "Istituto Tecnico Statale De Simoni / Quadrio",
+        "dates": "A.Y. 2020/2021"
+      },
+      "experienceTitle": "Experience",
+      "experience": [
+        {
+          "title": "Thesis Internship, Digital Product Development & UX",
+          "org": "Koinè Cooperativa Sociale ONLUS",
+          "dates": "2025 – July 2026",
+          "bullets": [
+            "Design and development of a digital platform for a nursery school.",
+            "Data collection and analysis with education and psychology professionals.",
+            "Requirements definition within a multidisciplinary team.",
+            "Presentation of the platform to Koinè's staff at the end of the internship (July 2026)."
+          ]
+        },
+        {
+          "title": "Digital Investor's Personal Assistant",
+          "org": "Discord Community",
+          "dates": "June 2021 – October 2022",
+          "bullets": [
+            "Monitored 35–40 Discord channels and connected sites to track and schedule the events most relevant to the investor.",
+            "Handled daily digital communications on Discord for an active investor community.",
+            "Moderated content and gave direct support to community members.",
+            "Researched and analysed digital projects (NFTs, OpenSea) to support decision-making.",
+            "Wrote papers and guides: a white-paper summary of an NFT collection, a strategy note and a guide for a blockchain game, and a FAQ for an MMORPG, synthesising Twitter, Discord and Telegram sources and adding my own recommendations."
+          ]
+        },
+        {
+          "title": "Receptionist",
+          "org": "“La Brace”",
+          "dates": "2021 – 2022",
+          "bullets": [
+            "Client reception and assistance in a fast-paced, multitasking front-office role."
+          ]
+        }
+      ],
+      "certificationsTitle": "Certifications",
+      "certViewLabel": "View certificate →",
+      "certifications": [
+        {
+          "issuer": "ANTHROPIC · UCC · RINGLING COLLEGE OF ART + DESIGN",
+          "title": "AI Fluency for Students",
+          "desc": "Language model literacy, ethical use of generative AI, and integration into academic and creative workflows.",
+          "file": "certificates/ai-fluency-for-students.pdf"
+        },
+        {
+          "issuer": "ANTHROPIC · UCC · RINGLING COLLEGE OF ART + DESIGN",
+          "title": "AI Fluency: Framework & Foundations",
+          "desc": "The Delegation, Description, Discernment, and Diligence framework for responsible, critical use of AI tools.",
+          "file": "certificates/ai-fluency-framework-foundations.pdf"
+        },
+        {
+          "issuer": "ANTHROPIC",
+          "title": "Claude 101",
+          "desc": "Using Claude for research, content generation, workflow automation, and decision support.",
+          "file": "certificates/claude-101.pdf"
+        },
+        {
+          "issuer": "SEMRUSH ACADEMY",
+          "title": "How to Build a Small Business Website",
+          "desc": "SEO and persuasive web writing: keyword research and content structure.",
+          "file": "certificates/semrush-sito-web-piccola-azienda.pdf"
+        },
+        {
+          "issuer": "VEGA FORMAZIONE",
+          "title": "Workplace Safety, General Training",
+          "desc": "Course compliant with Italian Legislative Decree 81/08 Art. 37: risk, prevention, protection, and workplace safety organization."
+        }
+      ],
+      "skillsTitle": "Skills",
+      "skillGroups": [
+        {
+          "label": "Technical",
+          "items": [
+            "JavaScript",
+            "Kotlin",
+            "Go",
+            "React",
+            "UX/UI",
+            "SQL",
+            "Network Analysis",
+            "Prompt Engineering",
+            "AI-Assisted Development",
+            "SEO"
+          ]
+        },
+        {
+          "label": "Digital Communication",
+          "items": [
+            "Content creation",
+            "Community management",
+            "Storytelling",
+            "Brand voice"
+          ]
+        },
+        {
+          "label": "Creativity & Movement",
+          "items": [
+            "Painting",
+            "Running",
+            "Climbing",
+            "Trekking"
+          ]
+        },
+        {
+          "label": "Transferable",
+          "items": [
+            "Empathy",
+            "Teamwork",
+            "Curiosity",
+            "Continuous learning"
+          ]
+        }
+      ],
+      "languagesTitle": "Languages",
+      "languages": "Italian: Native · English: Fluent (B2) · German: Basic (A2) · French: Basic (A2)",
+      "interestsTitle": "Interests",
+      "interests": "Trekking and mountains, painting, running, climbing, art and digital culture."
+    },
+    "archive": {
+      "title": "Archive",
+      "intro": "Paintings, mountains, sport and a bit of my life away from the screen.",
+      "prev": "Previous image",
+      "next": "Next image",
+      "items": [
+        {
+          "src": "media/quadri/quadro-2.jpg",
+          "title": "Painting",
+          "note": "Painting"
+        },
+        {
+          "src": "media/archivio/mare.jpg",
+          "title": "Sea",
+          "note": "Villasimius, Sardinia, 2024"
+        },
+        {
+          "src": "media/sport/sport-2.jpg",
+          "title": "Movement",
+          "note": "Sport"
+        },
+        {
+          "src": "media/archivio/quadro-musica.jpg",
+          "title": "Painting",
+          "note": "Music"
+        },
+        {
+          "src": "media/archivio/gatti.jpg",
+          "title": "Animals",
+          "note": "Cats, Valtellina, 2025"
+        },
+        {
+          "src": "photos/vetta-1100.jpg",
+          "title": "Mountains",
+          "note": "A ridge at sunset"
+        },
+        {
+          "src": "media/quadri/quadro-1.jpg",
+          "title": "Painting",
+          "note": "Painting"
+        },
+        {
+          "src": "media/archivio/moto.jpg",
+          "title": "Movement",
+          "note": "Riding towards the Bernina, 2025"
+        },
+        {
+          "src": "media/archivio/da-piccola.jpg",
+          "title": "Roots",
+          "note": "As a child"
+        },
+        {
+          "src": "media/archivio/neve.jpg",
+          "title": "Mountains",
+          "note": "Desenigo"
+        },
+        {
+          "src": "media/archivio/consolle.jpg",
+          "title": "Music",
+          "note": "On the decks",
+          "pos": "0% 50%"
+        },
+        {
+          "src": "media/archivio/quadro-surf.jpg",
+          "title": "Painting",
+          "note": "Surfing at sunset"
+        },
+        {
+          "src": "media/sport/sport-1.jpg",
+          "title": "Movement",
+          "note": "Sport"
+        },
+        {
+          "src": "media/archivio/prato.jpg",
+          "title": "Mountains",
+          "note": "High meadows"
+        },
+        {
+          "src": "media/quadri/quadro-3.jpg",
+          "title": "Painting",
+          "note": "Painting"
+        },
+        {
+          "src": "media/sport/sport-4.jpg",
+          "title": "Movement",
+          "note": "Sport"
+        }
+      ]
+    },
+    "journey": {
+      "kicker": "Nice to meet you, I'm",
+      "lead": "A journey through the things that make me who I am.",
+      "start": "Come with me",
+      "stops": [
+        {
+          "n": "01 · Code",
+          "title": "Code",
+          "text": "I love building things that are genuinely useful: a platform for preschools, an app to get back before dark, a social network for photos."
+        },
+        {
+          "n": "02 · Painting",
+          "title": "Painting",
+          "text": "From landscapes to freer shapes: I paint purely for fun."
+        },
+        {
+          "n": "03 · Music",
+          "title": "Music",
+          "text": "It has always been with me. In my free time I have fun on the decks.",
+          "link": {
+            "label": "Listen to my playlist",
+            "href": "https://open.spotify.com/playlist/57FuKbupQwMQzttrdmAoBE"
+          }
+        },
+        {
+          "n": "04 · Movement",
+          "title": "Movement",
+          "text": "Sport is how I recharge and stay balanced: running, climbing, long hikes."
+        },
+        {
+          "n": "05 · Mountains",
+          "title": "Mountains",
+          "text": "I grew up among the mountains of Valtellina: they taught me the value of space and silence."
+        }
+      ],
+      "end": {
+        "n": "06 · The end",
+        "light": "Thanks for",
+        "bold": "the journey",
+        "text": "If you'd like to get to know me better, carry on from here."
+      },
+      "endLinks": [
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "About",
+          "href": "/about"
+        },
+        {
+          "label": "Archive",
+          "href": "/archive"
+        },
+        {
+          "label": "Music",
+          "href": "/about#musica"
+        },
+        {
+          "label": "Contact",
+          "href": "/about#contatti"
+        }
+      ],
+      "progressStart": "Scroll to explore",
+      "progressDrag": "Drag the record",
+      "code": {
+        "file": "back-before-dark.js",
+        "lines": [
+          "function backBeforeDark(start, pace) {",
+          "  const light = sunset() - 30;",
+          "  return arrival(start, pace) < light;",
+          "}",
+          "",
+          "backBeforeDark(\"08:00\", \"signpost pace\");"
+        ],
+        "answer": "→ Yes, back in daylight"
+      }
+    }
+  }
+}

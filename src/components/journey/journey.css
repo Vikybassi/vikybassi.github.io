@@ -1,0 +1,267 @@
+/* Il viaggio della home. Colori propri (seguono il cielo del viaggio, non il tema chiaro/scuro del sito):
+   inchiostro scuro sul giorno, chiaro di notte (classe .jy-night, messa dalla scena). */
+.jy {
+  --jy-ink: #231a2b;
+  --jy-soft: #5d5063;
+  --jy-accent: #c2375a;
+  --jy-paper: #f4e4de;
+  position: relative;
+  height: 1000vh;
+  color: var(--jy-ink);
+  background: var(--jy-paper);
+}
+.jy.jy-night {
+  --jy-ink: #f3e9f1;
+  --jy-soft: #d8cbe0;
+}
+.jy-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+}
+.jy-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: pan-y;
+}
+
+/* apertura */
+.jy-intro {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 0 6vw;
+  pointer-events: none;
+  transition: opacity 0.9s, visibility 0.9s;
+}
+.jy-intro.jy-gone {
+  opacity: 0;
+  visibility: hidden;
+}
+.jy-intro h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(64px, 13vw, 220px);
+  line-height: 0.8;
+  letter-spacing: -0.055em;
+}
+.jy-intro h1 span {
+  display: block;
+  margin-bottom: 0.2em;
+  font-weight: 300;
+  font-size: 0.34em;
+  letter-spacing: -0.02em;
+  color: var(--jy-accent);
+}
+.jy-lead {
+  margin: 26px auto 0;
+  max-width: 30rem;
+  font-size: clamp(17px, 1.6vw, 21px);
+  line-height: 1.45;
+  color: var(--jy-soft);
+  text-wrap: balance;
+}
+.jy-btn {
+  pointer-events: auto;
+  display: block;
+  margin: 26px auto 0;
+  padding: 14px 26px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--jy-ink);
+  color: var(--jy-paper);
+  font: 500 13px var(--font-mono);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s, color 0.2s, border-color 0.2s;
+}
+.jy-btn:hover {
+  transform: scale(1.05);
+  background: var(--jy-accent);
+  color: #fff;
+}
+/* didascalie delle tappe: una sopra l'altra, quelle nascoste non spingono giù le altre */
+.jy-cap {
+  position: absolute;
+  left: 50%;
+  top: max(10vh, 92px);
+  transform: translateX(-50%);
+  z-index: 2;
+  width: min(640px, 88vw);
+  text-align: center;
+  pointer-events: none;
+}
+.jy-cap > div {
+  position: absolute;
+  inset: 0 0 auto 0;
+  transition: opacity 0.5s, transform 0.5s, visibility 0s 0s;
+}
+.jy-cap > div.jy-off {
+  opacity: 0;
+  transform: translateY(10px);
+  visibility: hidden;
+  transition: opacity 0.5s, transform 0.5s, visibility 0s 0.5s;
+}
+.jy-n {
+  margin: 0;
+  font: 500 11px var(--font-mono);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.jy-cap h2 {
+  margin: 6px 0 0;
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(38px, 5.4vw, 80px);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+}
+.jy-cap h2 em {
+  font-style: normal;
+  font-weight: 800;
+}
+.jy-cap p:not(.jy-n) {
+  margin: 10px auto 0;
+  max-width: 30rem;
+  font-size: 16px;
+  opacity: 0.85;
+  text-wrap: balance;
+}
+.jy-cap a {
+  pointer-events: auto;
+  display: inline-block;
+  margin-top: 12px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--jy-accent);
+  color: inherit;
+  text-decoration: none;
+  font: 500 12px var(--font-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.jy-cap a:hover {
+  color: var(--jy-accent);
+}
+
+/* fine: i link per entrare nel resto del sito (fondo scuro velato: sopra l'isola chiara si leggono) */
+.jy-end {
+  position: absolute;
+  left: 50%;
+  bottom: 11vh;
+  transform: translateX(-50%);
+  z-index: 3;
+  width: 92vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+}
+.jy-end.jy-on {
+  opacity: 1;
+  visibility: visible;
+}
+.jy-end a {
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: rgba(22, 16, 32, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #f3e9f1;
+  text-decoration: none;
+  font: 500 13px var(--font-mono);
+  letter-spacing: 0.08em;
+  backdrop-filter: blur(6px);
+}
+.jy-end a:hover {
+  background: var(--jy-accent);
+  border-color: var(--jy-accent);
+}
+
+/* barra in basso: dove sei e quanto manca */
+.jy-progress {
+  position: absolute;
+  left: 3vw;
+  right: 3vw;
+  bottom: 16px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font: 500 11px var(--font-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.jy-progress > i {
+  flex: 1;
+  height: 1px;
+  position: relative;
+  background: color-mix(in srgb, currentColor 25%, transparent);
+}
+.jy-progress > i b {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  height: 3px;
+  width: 100%;
+  background: var(--jy-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+/* senza WebGL: niente viaggio, restano titolo, frase e link */
+.jy.jy-nogl {
+  height: auto;
+}
+.jy.jy-nogl .jy-stage {
+  position: relative;
+  height: auto;
+  min-height: 100svh;
+  padding: 140px 0 120px;
+}
+.jy.jy-nogl .jy-intro {
+  position: relative;
+}
+.jy.jy-nogl .jy-cap,
+.jy.jy-nogl .jy-progress {
+  display: none;
+}
+.jy.jy-nogl .jy-end {
+  position: relative;
+  left: auto;
+  bottom: auto;
+  transform: none;
+  margin: 40px auto 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 760px) {
+  .jy-intro h1 {
+    font-size: 21vw;
+    line-height: 0.84;
+  }
+  .jy-lead {
+    font-size: 16px;
+  }
+  .jy-cap {
+    top: max(9vh, 80px);
+  }
+  .jy-cap p:not(.jy-n) {
+    font-size: 14px;
+  }
+  .jy-progress > span:first-child {
+    display: none;
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "media/archivio/consolle.jpg": {
+    "w": 912,
+    "h": 860
+  },
+  "media/archivio/da-piccola.jpg": {
+    "w": 1169,
+    "h": 1146
+  },
+  "media/archivio/gatti.jpg": {
+    "w": 1200,
+    "h": 1600
+  },
+  "media/archivio/mare.jpg": {
+    "w": 1200,
+    "h": 1600
+  },
+  "media/archivio/moto.jpg": {
+    "w": 1200,
+    "h": 1600
+  },
+  "media/archivio/neve.jpg": {
+    "w": 964,
+    "h": 1280
+  },
+  "media/archivio/prato.jpg": {
+    "w": 1067,
+    "h": 1600
+  },
+  "media/archivio/quadro-musica.jpg": {
+    "w": 1199,
+    "h": 1600
+  },
+  "media/archivio/quadro-surf.jpg": {
+    "w": 1200,
+    "h": 1600
+  },
+  "media/fotogram-demo-poster.jpg": {
+    "w": 420,
+    "h": 942
+  },
+  "media/quadri/quadro-1.jpg": {
+    "w": 1050,
+    "h": 1400
+  },
+  "media/quadri/quadro-2.jpg": {
+    "w": 1052,
+    "h": 1600
+  },
+  "media/quadri/quadro-3.jpg": {
+    "w": 1061,
+    "h": 1600
+  },
+  "media/screenshots/piccolipassi-1.jpg": {
+    "w": 1200,
+    "h": 800
+  },
+  "media/screenshots/piccolipassi-4.jpg": {
+    "w": 1200,
+    "h": 800
+  },
+  "media/screenshots/piccolipassi-5.jpg": {
+    "w": 1200,
+    "h": 800
+  },
+  "media/screenshots/piccolipassi-6.jpg": {
+    "w": 1200,
+    "h": 800
+  },
+  "media/screenshots/piccolipassi-7.jpg": {
+    "w": 1200,
+    "h": 800
+  },
+  "media/screenshots/piccolipassi-8.jpg": {
+    "w": 1200,
+    "h": 800
+  },
+  "media/screenshots/rientro-1.jpg": {
+    "w": 1800,
+    "h": 1125
+  },
+  "media/screenshots/rientro-2.jpg": {
+    "w": 1800,
+    "h": 1125
+  },
+  "media/screenshots/rientro-3.jpg": {
+    "w": 1800,
+    "h": 1125
+  },
+  "media/sport/sport-1.jpg": {
+    "w": 1050,
+    "h": 1400
+  },
+  "media/sport/sport-2.jpg": {
+    "w": 1200,
+    "h": 1600
+  },
+  "media/sport/sport-3.jpg": {
+    "w": 1200,
+    "h": 1600
+  },
+  "media/sport/sport-4.jpg": {
+    "w": 1200,
+    "h": 1600
+  }
+}
