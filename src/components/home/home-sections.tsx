@@ -243,6 +243,13 @@ export function Manifesto() {
             </div>
           </Reveal>
         </div>
+        {/* il viaggio 3D vive in un sito a parte (il lab): qui solo un invito, per chi ha voglia di giocare */}
+        <Reveal className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-1 md:mt-12">
+          <p className="text-[17px] text-ink-soft">{t.home.lab.text}</p>
+          <Btn href={t.home.lab.href} external variant="link">
+            {t.home.lab.cta}
+          </Btn>
+        </Reveal>
       </Wrap>
     </section>
   );

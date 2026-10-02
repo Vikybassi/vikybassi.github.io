@@ -1,9 +1,19 @@
 "use client";
 
-import { Journey } from "@/components/journey/journey";
+import { ContactCta } from "@/components/site/contact-cta";
+import { Hero } from "@/components/home/hero";
+import { FeaturedWork, Manifesto, Skills } from "@/components/home/home-sections";
 
-/** Home: il viaggio tra le isole (codice, pittura, musica, movimento, montagna), poi il piè di pagina del sito.
- *  Le sezioni della home precedente (Hero, FeaturedWork, Manifesto, Skills) restano in components/home, non usate. */
+/** Home: chi sono (hero), i progetti scelti, cosa mi muove, competenze, contatti.
+ *  Lo sfondo (il Monte Disgrazia col tramonto) è comune a tutte le pagine: RidgeSky in SiteShell. */
 export function HomeView() {
-  return <Journey />;
+  return (
+    <>
+      <Hero />
+      <FeaturedWork />
+      <Manifesto />
+      <Skills />
+      <ContactCta />
+    </>
+  );
 }

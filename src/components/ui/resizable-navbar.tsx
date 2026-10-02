@@ -37,9 +37,6 @@ interface MobileNavMenuProps {
 export const Navbar = ({ children, className }: NavbarProps) => {
   const { scrollY } = useScroll();
   const [scrolled, setScrolled] = useState(false);
-  // in home il viaggio ha un cielo chiaro anche col tema scuro: la barra tiene il fondo da subito, per restare leggibile
-  const path = usePathname();
-  const solid = scrolled || path === "/" || path === "/en";
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     setScrolled(latest > 24);
@@ -49,7 +46,7 @@ export const Navbar = ({ children, className }: NavbarProps) => {
     <div
       className={cn(
         "fixed inset-x-0 top-0 z-50 w-full border-b transition-[background-color,border-color] duration-300",
-        solid ? "border-line bg-paper/85 backdrop-blur-md" : "border-transparent",
+        scrolled ? "border-line bg-paper/85 backdrop-blur-md" : "border-transparent",
         className,
       )}
     >

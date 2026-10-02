@@ -18,6 +18,11 @@
       "ctaPrimary": "Guarda i progetti",
       "ctaSecondary": "Chi sono",
       "pillarsTitle": "Cosa mi muove",
+      "lab": {
+        "text": "Ti va di vederle da vicino? Ho costruito un piccolo viaggio in 3D tra queste cose.",
+        "cta": "Fai il viaggio",
+        "href": "https://vikybassi.github.io/lab/"
+      },
       "pillars": [
         {
           "label": "Sviluppo & Dati",
@@ -764,84 +769,6 @@
           "note": "Sport"
         }
       ]
-    },
-    "journey": {
-      "kicker": "Piacere, sono",
-      "lead": "Un viaggio tra le cose che mi rendono me stessa.",
-      "start": "Vieni con me",
-      "stops": [
-        {
-          "n": "01 · Codice",
-          "title": "Codice",
-          "text": "Mi piace costruire cose che servono davvero: una piattaforma per le scuole dell'infanzia, un'app per tornare prima del buio, un social per le foto."
-        },
-        {
-          "n": "02 · Pittura",
-          "title": "Pittura",
-          "text": "Dai paesaggi alle forme più libere: dipingo per puro divertimento."
-        },
-        {
-          "n": "03 · Musica",
-          "title": "Musica",
-          "text": "Mi accompagna da sempre. Nel tempo libero mi diverto alla consolle.",
-          "link": {
-            "label": "Ascolta la mia playlist",
-            "href": "https://open.spotify.com/playlist/57FuKbupQwMQzttrdmAoBE"
-          }
-        },
-        {
-          "n": "04 · Movimento",
-          "title": "Movimento",
-          "text": "Lo sport è il modo in cui mi ricarico e resto in equilibrio: corsa, arrampicata, grandi camminate."
-        },
-        {
-          "n": "05 · Montagna",
-          "title": "Montagna",
-          "text": "Sono cresciuta tra le montagne della Valtellina: mi hanno insegnato il valore dello spazio e del silenzio."
-        }
-      ],
-      "end": {
-        "n": "06 · Fine",
-        "light": "Grazie",
-        "bold": "del viaggio",
-        "text": "Se vuoi conoscermi meglio, da qui puoi continuare."
-      },
-      "endLinks": [
-        {
-          "label": "Progetti",
-          "href": "/projects"
-        },
-        {
-          "label": "Chi sono",
-          "href": "/about"
-        },
-        {
-          "label": "Archivio",
-          "href": "/archive"
-        },
-        {
-          "label": "Musica",
-          "href": "/about#musica"
-        },
-        {
-          "label": "Contatti",
-          "href": "/about#contatti"
-        }
-      ],
-      "progressStart": "Scorri per esplorare",
-      "progressDrag": "Trascina il disco",
-      "code": {
-        "file": "rientro.js",
-        "lines": [
-          "function rientro(partenza, passo) {",
-          "  const luce = tramonto() - 30;",
-          "  return arrivo(partenza, passo) < luce;",
-          "}",
-          "",
-          "rientro(\"08:00\", \"come i cartelli\");"
-        ],
-        "answer": "→ Sì, rientri con la luce"
-      }
     }
   },
   "en": {
@@ -863,6 +790,11 @@
       "ctaPrimary": "View projects",
       "ctaSecondary": "About me",
       "pillarsTitle": "What moves me",
+      "lab": {
+        "text": "Want a closer look? I built a small 3D journey through these things.",
+        "cta": "Take the journey",
+        "href": "https://vikybassi.github.io/lab/?lang=en"
+      },
       "pillars": [
         {
           "label": "Development & Data",
@@ -1609,84 +1541,6 @@
           "note": "Sport"
         }
       ]
-    },
-    "journey": {
-      "kicker": "Nice to meet you, I'm",
-      "lead": "A journey through the things that make me who I am.",
-      "start": "Come with me",
-      "stops": [
-        {
-          "n": "01 · Code",
-          "title": "Code",
-          "text": "I love building things that are genuinely useful: a platform for preschools, an app to get back before dark, a social network for photos."
-        },
-        {
-          "n": "02 · Painting",
-          "title": "Painting",
-          "text": "From landscapes to freer shapes: I paint purely for fun."
-        },
-        {
-          "n": "03 · Music",
-          "title": "Music",
-          "text": "It has always been with me. In my free time I have fun on the decks.",
-          "link": {
-            "label": "Listen to my playlist",
-            "href": "https://open.spotify.com/playlist/57FuKbupQwMQzttrdmAoBE"
-          }
-        },
-        {
-          "n": "04 · Movement",
-          "title": "Movement",
-          "text": "Sport is how I recharge and stay balanced: running, climbing, long hikes."
-        },
-        {
-          "n": "05 · Mountains",
-          "title": "Mountains",
-          "text": "I grew up among the mountains of Valtellina: they taught me the value of space and silence."
-        }
-      ],
-      "end": {
-        "n": "06 · The end",
-        "light": "Thanks for",
-        "bold": "the journey",
-        "text": "If you'd like to get to know me better, carry on from here."
-      },
-      "endLinks": [
-        {
-          "label": "Projects",
-          "href": "/projects"
-        },
-        {
-          "label": "About",
-          "href": "/about"
-        },
-        {
-          "label": "Archive",
-          "href": "/archive"
-        },
-        {
-          "label": "Music",
-          "href": "/about#musica"
-        },
-        {
-          "label": "Contact",
-          "href": "/about#contatti"
-        }
-      ],
-      "progressStart": "Scroll to explore",
-      "progressDrag": "Drag the record",
-      "code": {
-        "file": "back-before-dark.js",
-        "lines": [
-          "function backBeforeDark(start, pace) {",
-          "  const light = sunset() - 30;",
-          "  return arrival(start, pace) < light;",
-          "}",
-          "",
-          "backBeforeDark(\"08:00\", \"signpost pace\");"
-        ],
-        "answer": "→ Yes, back in daylight"
-      }
     }
   }
 }

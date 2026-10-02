@@ -37,6 +37,8 @@ export interface Translations {
     ctaPrimary: string;
     ctaSecondary: string;
     pillarsTitle: string;
+    /** invito al lab (il viaggio 3D, sito a parte) sotto "Cosa mi muove" */
+    lab: { text: string; cta: string; href: string };
     pillars: Pillar[];
     featuredTitle: string;
     featured: Featured[];
@@ -94,21 +96,6 @@ export interface Translations {
     /** Il link dalle Radici all'Archivio (la galleria curva). */
     archiveLink: string;
   };
-  /** Il lato "curriculum": formazione, esperienza, competenze, certificazioni, lingue — pagina a parte da "Chi sono". */
-  /** La home: il viaggio 3D tra le isole (src/components/journey). */
-  journey: {
-    kicker: string;
-    lead: string;
-    start: string;
-    stops: { n: string; title: string; text: string; link?: { label: string; href: string } }[];
-    end: { n: string; light: string; bold: string; text: string };
-    /** link interni (senza /en: li aggiunge href() della lingua) */
-    endLinks: { label: string; href: string }[];
-    progressStart: string;
-    progressDrag: string;
-    /** il codice scritto sullo schermo dell'isola Codice: nome del file, 6 righe, risposta */
-    code: { file: string; lines: string[]; answer: string };
-  };
   /** Pagina Archivio: quadri e foto su una galleria curva che gira con lo scroll. */
   archive: {
     title: string;
@@ -118,6 +105,7 @@ export interface Translations {
     /** `pos`: quale parte dell'immagine tenere sulla carta verticale (object-position), se non il centro. */
     items: { src: string; title: string; note: string; pos?: string }[];
   };
+  /** Il lato "curriculum": formazione, esperienza, competenze, certificazioni, lingue — pagina a parte da "Chi sono". */
   resume: {
     title: string;
     intro: string;

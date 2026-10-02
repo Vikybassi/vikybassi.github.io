@@ -61,19 +61,14 @@ const mix = (a: [number, number, number], b: number[], t: number) =>
  */
 /** Pagine dove lo sfondo resta fermo, e la fase del cielo che mostrano (0 = giorno … 1 = notte). */
 const STILL: Record<string, number> = { "/archive": 0.5, "/en/archive": 0.5 };
-/** Pagine senza questo sfondo: la home ha il suo cielo, quello del viaggio. */
-const HIDDEN = new Set(["/", "/en"]);
 
 export function RidgeSky() {
   const ref = useRef<HTMLCanvasElement>(null);
   const pathname = usePathname();
   const still = useRef<number | null>(null);
-  const hidden = useRef(false);
-  const path = pathname.replace(/\/+$/, "") || "/";
   useEffect(() => {
-    still.current = STILL[path] ?? null;
-    hidden.current = HIDDEN.has(path);
-  }, [path]);
+    still.current = STILL[pathname.replace(/\/+$/, "") || "/"] ?? null;
+  }, [pathname]);
 
   useEffect(() => {
     const cv = ref.current;
@@ -160,7 +155,7 @@ export function RidgeSky() {
 
     const frame = (now: number) => {
       raf = requestAnimationFrame(frame);
-      if (!grid || hidden.current) return;
+      if (!grid) return;
       const narrow = W < 768;
       const grow = reduce ? 1 : Math.min(1, (now - t0) / 1600);
       const ease = 1 - Math.pow(1 - grow, 3);
@@ -277,12 +272,5 @@ export function RidgeSky() {
     };
   }, []);
 
-  return (
-    <canvas
-      ref={ref}
-      aria-hidden="true"
-      className="pointer-events-none fixed inset-0 -z-10 h-full w-full"
-      style={HIDDEN.has(path) ? { display: "none" } : undefined}
-    />
-  );
+  return <canvas ref={ref} aria-hidden="true" className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />;
 }
